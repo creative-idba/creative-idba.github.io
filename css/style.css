@@ -481,8 +481,8 @@ header ul li i {
 }
 .jumbotron h1 {
   font-size: 25pt;
-  color: rgba(24, 24, 24, 0.968);
-  text-shadow: 1px 1px 3px rgba(36, 36, 36, 0.701);
+  color: rgba(0, 0, 0, 0.918);
+  text-shadow: 1px 1px 2px rgba(36, 36, 36, 0.267);
 }
 .jumbotron h4 {
   font-size: 13pt;
@@ -1425,7 +1425,7 @@ footer .tiny {
     font-size: 15px;
   }
   .jumbotron h4 {
-    font-size: 8pt !important;
+    font-size: 7pt !important;
   }
   /* Jumbotron End */
 
@@ -1471,6 +1471,9 @@ footer .tiny {
    */
 
   /* Service */
+  .service {
+    margin: 0px 50px !important;
+  }
   .seh3 {
     height: 40px;
     width: 120px;
@@ -1482,6 +1485,12 @@ footer .tiny {
   .col-service {
     top: 0;
     opacity: 1;
+  }
+  .service h4 {
+    font-size: 8pt !important;
+  }
+  .service p {
+    font-size: 6pt !important;
   }
   /* Service End */
 
