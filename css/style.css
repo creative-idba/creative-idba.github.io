@@ -1578,8 +1578,4 @@ footer .tiny {
   }
   /* Footer End*/
 }
-@media (min-width: 0) and (max-width: 350px) {
-  .btn {
-    padding-left: 5px !important;
-  }
-}
+
