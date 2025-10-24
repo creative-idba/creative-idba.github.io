@@ -632,6 +632,10 @@ header ul li i {
   font-size: 25px !important;
   transform: rotate(360deg);
 }
+.rotate-medsos-l {
+  font-size: 25px !important;
+  transform: rotate(360deg);
+}
 .wrapper .icon:hover span i {
   color: #fff;
   transform: scale(1.2) !important;
@@ -689,6 +693,11 @@ header ul li i {
 .wrapper .youtube:hover .tooltip:before {
   background: #e81818;
 }
+.wrapper .linkedin:hover span,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip:before {
+  background: #0a66c2;
+}
 /*** Media End ***/
 
 /*** Service ***/
@@ -712,11 +721,11 @@ header ul li i {
 }
 .container-service {
   background-color: #fff;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 10px auto;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .col-service {
   position: relative;
@@ -725,7 +734,7 @@ header ul li i {
   height: auto;
   padding: 24px;
   opacity: 0;
-  margin: 10px;
+  margin: 10px 20px;
   text-align: center;
   box-sizing: border-box;
   border-radius: 2px;
@@ -738,6 +747,12 @@ header ul li i {
   transition: all 1s 0.25s;
 }
 .se-col3 {
+  transition: all 1s 0.5s;
+}
+.se-col4 {
+  transition: all 1s 0.5s;
+}
+.se-col5 {
   transition: all 1s 0.5s;
 }
 .animate-col {
@@ -819,6 +834,11 @@ header ul li i {
   margin-top: 20px;
   transition: all 1.5s 0.5s;
 }
+.pro-col5 {
+  opacity: 0 !important;
+  margin-top: 20px;
+  transition: all 1.5s 0.5s;
+}
 .animate-col1 {
   opacity: 1 !important;
   left: 0px !important;
@@ -832,6 +852,9 @@ header ul li i {
   right: 0px !important;
 }
 .animate-col4 {
+  opacity: 1 !important;
+}
+.animate-col5 {
   opacity: 1 !important;
 }
 .projects img {

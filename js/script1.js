@@ -13,7 +13,7 @@ menuTo.addEventListener('click', function () {
   menuTo.classList.toggle('df');
 });
 
-
+ 
 // 
 const windowHeight = window.innerHeight;
 const sections = document.querySelectorAll('.sec');
