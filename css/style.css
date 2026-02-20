@@ -63,7 +63,8 @@ body {
 }
 /*** Parallax ***/
 .parallax-container {
-  height: 20% !important;
+  height: max-content;
+  width: 100vw;
 }
 .parallax-container {
   position: relative;
@@ -569,7 +570,7 @@ header ul li i {
   border-bottom: 3px solid rgb(51, 51, 51);
 }
 #media {
-  height: 210px !important;
+  height: max-content;
   margin: 1.9466666667rem 0 1.168rem 0;
 }
 .row-icon {
@@ -1473,7 +1474,7 @@ footer .tiny {
 
   /* Media */
   #media {
-    height: 430px !important;
+    height: max-content;
   }
   .meh3 {
     height: 40px;
