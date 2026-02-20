@@ -551,6 +551,7 @@ header ul li i {
 /*** Media ***/
 .parallax {
   color: #111;
+  width: 100vw;
 }
 .meh3 {
   position: relative;
@@ -571,7 +572,7 @@ header ul li i {
 }
 #media {
   height: max-content;
-  margin: 1.9466666667rem 0 1.168rem 0;
+  width: 100vw; 
 }
 .row-icon {
   padding-top: 25px;
@@ -1475,6 +1476,7 @@ footer .tiny {
   /* Media */
   #media {
     height: max-content;
+    width: 100%;
   }
   .meh3 {
     height: 40px;
@@ -1495,6 +1497,9 @@ footer .tiny {
    */
 
   /* Service */
+  .container-service { 
+    width: 90% !important; 
+  }
   .service {
     margin: 0px 50px !important;
   }
